@@ -1,0 +1,19 @@
+class Skincare{
+    String Brand;
+    String Namaproduk;
+    String Jenisproduk;   
+}
+public class UASPemogramanBerorientasiObjek{
+public static void main(String[] args) {
+    Skincare Skincareku = new Skincare ();
+    Skincareku.Brand ="Azarine";
+    Skincareku.Namaproduk = "facial wash";
+    Skincareku.Jenisproduk = "Brightening";
+
+    System.out.println("Brand:"+Skincareku.Brand);
+    System.out.println("Namaproduk:"+Skincareku.Namaproduk);
+    System.out.println("Jenisproduk:"+Skincareku.Jenisproduk);
+
+    }
+
+}
